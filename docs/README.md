@@ -14,11 +14,22 @@
 
 ## 管理与运营
 
+- [知识文档导入](knowledge-import.md)：支持格式、OCR 要求及上传和解析限制。
 - [AI 质检运行手册](ai-quality-inspection-runbook.md)。
 - [管理员 AI 模型隔离与共享](admin-ai-config-sharing-runbook.md)。
 - [AI 工作台与系统帮助](ai-workspace-runbook.md)。
+- [平台网页人工辅助发布](distribution/platform-web-assisted-publishing.md)。
+- [AI 可见性专题与词云](ai-visibility-operations.md)。
+- [图片备注与智能配图](image-library-remarks.md)。
+- [出站代理与 WAF 目标访问](operations/outbound-egress-proxy.md)。
 - [Chrome 运营助手](browser-operations-runbook.md)。
 - [GEOFlow CLI](GEOFLOW_CLI.md) · [CLI English guide](GEOFLOW_CLI_en.md)。
+
+## 开发与集成方案
+
+- [GEOFlow 原生 MCP 与 ChatGPT 接入方案](plans/chatgpt-mcp-management-rfc.md)：维护者已批准文档方案并进入实施准备；单仓库、每实例授权、共享管理服务，包含 D01+D02 最小读取交接。仅交付文档，运行接入仍待实现。
+- [原生 MCP 方案复核报告](reviews/chatgpt-mcp-management-review.md)：2026-10-25 按固定源码基线复查 20 项风险与缺口，含现有工作流版本/收据复用、OAuth 身份及恢复边界。
+- [原生 MCP 实施与验收清单](plans/chatgpt-mcp-management-acceptance.md)：80 项运行验收全部 NOT_RUN；文档一致性、仓库 CI 及未来 MCP 运行验收分别报告。
 
 ## Wiki 与维护者资料
 
